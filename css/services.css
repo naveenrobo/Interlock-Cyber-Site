@@ -1352,3 +1352,23 @@ textarea:focus {
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
+
+.dw-service-container {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/serv.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dw-service-head {
+    padding: 50px;
+}
+
+.dw-service-head h1 {
+    font-weight: bold;
+    color: white;
+}
