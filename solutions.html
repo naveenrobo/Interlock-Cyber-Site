@@ -12,307 +12,160 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/solutions.css">
 
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <!-- <link rel="stylesheet" href="/assets/css/footer.css"> -->
-    <link rel="stylesheet" href="/assets/css/home.css">
-    <link rel="stylesheet" href="/assets/css/navigation.css">
-
-
-    <style>
-        /* width */
-        ::-webkit-scrollbar {
-            width: 2px;
-        }
-
-        /* Track */
-        ::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 5px #10121f;
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: #ffc107;
-            border-radius: 10px;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #ffc107;
-        }
-    </style>
 </head>
 
 <body>
-    <div id="barba-wrapper">
-        <div class="wrapper barba-container">
-            <style>
-                .solution-section {
-                    width: 100%;
-                    height: 100%;
+    <section class="dw-solution">
+        <div class="dw-solution-title">
+            <h1>SOLUTIONS</h1>
+        </div>
+    </section>
 
-                    padding-top: 220px;
-                    padding-bottom: 0;
-                }
+    <div id="cyber_defense" name="cyber_defense" class="dw-row-padding dw-top-bottom dw-container">
+        <div class="dw-content dw-wrap-reverse">
+            <div class="dw-container-para">
+                <h1>Cyber Defense</h1>
 
-                .solution-section .solution-container {
-                    width: 100%;
-                    position: relative;
-                }
+                <p class="dw-text-grey">With the help of our company, understanding the client organization environment, cyber defense analyzes the different threats possible to the given environment. It then helps in devising and driving the strategies necessary to counter
+                    the malicious attacks or threats. A wide range of different activities is involved in cyber defense for protecting the concerned entity as well as for the rapid response to a threat landscape.
 
-                .solution-section .solution-content {
-                    max-width: 1280px;
-                    width: 100%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    position: relative;
-                }
+                </p>
 
-                .solution-section .content {
-                    position: relative;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    align-items: flex-start;
-                    color: white !important;
-                }
+                <p class="dw-text-grey">These could include reducing the appeal of the environment to the possible attackers, understanding the critical locations & sensitive information, enacting preventative controls to ensure attacks would be expensive, attack detection capability
+                    and reaction and response capabilities. Cyber defense also carries out technical analysis to identify the paths and areas the attackers could target.</p>
+                <p class="dw-text-grey">Cyber defense provides the much-needed assurance to run the processes and activities, free from worries about threats. It helps in enhancing the security strategy utilizations and resources in the most effective fashion. Cyber defense
+                    also helps in improving the effectiveness of the security resources and security expenses, especially in critical locations.</p>
+            </div>
 
-                .solution-section .content .title {
-                    padding: 30px 0;
-                    color: #ffc107
-                }
-
-                .solution-section .content p {
-                    font-size: 25px;
-                }
-
-                .solution-section .content ol.para {
-                    font-size: 25px;
-                    padding-left: 25px;
-                }
-
-                .solution-section .content .para {
-                    color: #7a7a7a;
-                    padding: 10px 0;
-                }
-
-                .solution-section .content .para.title {
-                    color: #fff;
-                    padding-bottom: 10px
-                }
-
-                .solution-section .content .blah {
-                    padding-bottom: 60px;
-                }
-
-                .solution-section .content .blah h3 {
-                    color: #6c63ff;
-                }
-
-                @media (max-width: 768.98px) {
-                    .solution-section {
-                        padding-top: 110px;
-                    }
-
-                    .solution-section .content p {
-                        font-size: 20px;
-                    }
-
-                    .solution-section .content {
-                        padding: 0 10px;
-                    }
-
-                    .solution-section .content .blah {
-                        padding-bottom: 50px;
-                    }
-
-                    .solution-section .content .para.title {
-                        padding-bottom: 8px
-                    }
-                }
-
-                .solution-section .solution-image {}
-
-                .solution-section .solution-image img {
-                    width: 70%;
-                    height: auto;
-                }
-
-                .solution-section .solution-title {
-                    color: white !important;
-                    justify-content: center;
-                    align-items: center;
-                    vertical-align: middle;
-                    display: inline-flex;
-                    font-size: 60px;
-                    font-weight: 700;
-                }
-            </style>
-            <div class="solution-section">
-                <div class="solution-container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6 col-sm-6 text-center solution-title">
-                                Solutions
-                            </div>
-                            <div class="col-6 col-sm-6">
-                                <figure class="solution-image">
-                                    <img src="/assets/images/services.svg" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="solution-content">
-                        <div class="content">
-                            <h1 class="title">
-                                Cyber Defense
-                            </h1>
-                            <div class="blah one">
-                                <p class="para" data-aos="fade-up">
-                                    - With the help of our company, understanding the client organization environment,
-                                    cyber defense analyzes the different threats possible to the given environment.It
-                                    then helps in devising and driving the strategies necessary to counter the
-                                    malicious attacks or threats. A wide range of different activities is involved in
-                                    cyber defense for protecting the concerned entity as well as for the rapid response
-                                    to a threat landscape.
-                                </p>
-
-                                <p class="para">
-                                    - These could include reducing the appeal of the environment to the possible
-                                    attackers, understanding the critical locations & sensitive information, enacting
-                                    preventative controls to ensure attacks would be expensive, attack detection
-                                    capability and reaction and response capabilities. Cyber defense also carries out
-                                    technical analysis to identify the paths and areas the attackers could target.
-
-                                </p>
-                                <p class="para">
-                                    - Cyber defense provides the much-needed assurance to run the processes and
-                                    activities, free from worries about threats. It helps in enhancing the security
-                                    strategy utilizations and resources in the most effective fashion. Cyber defense
-                                    also helps in improving the effectiveness of the security resources and security
-                                    expenses, especially in critical locations.
-
-
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div class="content">
-                            <h1 class="title">
-                                Cyber Protection
-                            </h1>
-                            <div class="blah one">
-                                <p class="para" data-aos="fade-up">
-                                    - Cyber protection is the body of technologies, processes and practices designed to
-                                    protect networks, computers, programs and data from attack, damage or unauthorized
-                                    access. In a computing context, security includes both cyber security and physical
-                                    security.
-                                </p>
-
-                                <p class="para">
-                                    - Ensuring cyber protection requires our company co-ordinate efforts throughout an
-                                    information system. Elements of cyber security include:
-                                </p>
-                                <ol class="para">
-                                    <li>Application security</li>
-                                    <li>Information security</li>
-                                    <li>Network security</li>
-                                    <li>Disaster recovery / business continuity planning</li>
-                                    <li>Operational security</li>
-                                    <li>End-user security</li>
-                                </ol>
-                                <p class="para">
-                                    - One of the most problematic elements of cyber protection from our perspective is
-                                    the
-                                    quickly and constantly evolving nature of security risks. The traditional approach
-                                    has been to focus most resources on the most crucial system components and protect
-                                    against the biggest known threats, which necessitated leaving some less important
-                                    system components undefended and some less dangerous risks not protected against.
-
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div class="content">
-                            <h1 class="title">
-                                Forensics
-                            </h1>
-                            <div class="blah one">
-                                <p class="para" data-aos="fade-up">
-                                    - Forensics is the application of investigation and analysis techniques to gather
-                                    and preserve evidence from a particular computing device in a way that is suitable
-                                    for presentation in a court of law. The goal of our cyber forensics program is to
-                                    perform a structured investigation while maintaining a documented chain of evidence
-                                    to find out exactly what happened on all device and who was responsible for it.
-                                </p>
-
-                                <p class="para">
-                                    - So, Our Forensic Team investigates and follow a typically standard set of
-                                    procedures: After physically isolating the device in question to make sure it cannot
-                                    be accidentally contaminated, investigators make a digital copy of the device's
-                                    storage media. Once the original media has been copied, it is locked in a safe or
-                                    other secure facility to maintain its pristine condition. All investigation is done
-                                    on the digital copy.
-                                </p>
-                                <p class="para">
-                                    - Our Investigators use a variety of techniques and proprietary software forensic
-                                    applications to examine the copy, searching hidden folders and unallocated disk
-                                    space for copies of deleted, encrypted, or damaged files. Any evidence found on the
-                                    digital copy is carefully documented in a "finding report" and verified with the
-                                    original in preparation for legal proceedings that involve discovery, depositions,
-                                    or actual litigation.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div class="content">
-                            <h1 class="title">
-                                VAPT (Vulnerability Assessment and Penetration Testing)
-                            </h1>
-                            <div class="blah one">
-                                <p class="para" data-aos="fade-up">
-                                    - VAPT is an important task to be carried out as a service by our organization .This
-                                    is because of the rise in hacking attempts irrespective of the industry type.
-                                    Attacks can happen from internally or externally with no or little knowledge of the
-                                    network.
-                                </p>
-
-                                <p class="para">
-                                    - Penetration testing is a systematic way to detect security vulnerabilities in an
-                                    application by evaluating the system or network with various malicious techniques.
-                                    It is obviously an ethical way of penetrating into a network or website of our
-                                    client, in order to bring problems to the surface with an intention to fix those.
-                                    Such a service, also called as VAPT, uses same techniques as that of a real life
-                                    evil hacker.
-                                </p>
-                                <p class="para">
-                                    - The idea is to test all network layers, right from L2 to L7. The test can be
-                                    intrusive or non-intrusive, depending upon the scope and depth, as well as data
-                                    criticality. Companies are encouraged to look for pentest service provided by us,to
-                                    do the vulnerability scanning in an agile and accurate way and provide a detailed
-                                    technical report, which helps strengthen the cyber security.
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <div class="dw-img-container dw-center">
+                <img class="dw-img" src="./images/cyber_defense.png" alt="def">
             </div>
         </div>
-    </div>
-    <script>
-        document.onmousemove = function (e) {
-            document.body.style.setProperty('--x', (e.clientX) + 'px');
-            document.body.style.setProperty('--y', (e.clientY) + 'px');
-        }
-    </script>
 
+    </div>
+    <!-- <div class="dw-bottom-border">
+    <span></span>
+    </div>  -->
+
+    <div id="cyber_protection" name="cyber_protection" class="dw-row-padding dw-top-bottom dw-lite dw-container">
+        <div class="dw-content dw-wrap">
+
+            <div class="dw-img-container dw-center">
+                <img class="dw-img" src="./images/cyber_protection.png" alt="def">
+            </div>
+            <div class="dw-container-para">
+                <h1>Cyber Protection</h1>
+
+                <p class="dw-text-grey">Cyber protection is the body of technologies, processes and practices designed to protect networks, computers, programs and data from attack, damage or unauthorized access. In a computing context, security includes both cyber security
+                    and physical security.</p>
+
+                <p class="dw-text-grey">Ensuring cyber protection requires our company co-ordinate efforts throughout an information system. Elements of cyber security include:
+
+                </p>
+                <ol class="dw-protection-list">
+                    <li>Application security</li>
+                    <li>Information security</li>
+                    <li>Network security</li>
+                    <li>Disaster recovery / business continuity planning</li>
+                    <li>Operational security</li>
+                    <li>End-user security</li>
+                </ol>
+
+                <p class="dw-text-grey">One of the most problematic elements of cyber protection from our perspective is the quickly and constantly evolving nature of security risks. The traditional approach has been to focus most resources on the most crucial system components
+                    and protect against the biggest known threats, which necessitated leaving some less important system components undefended and some less dangerous risks not protected against.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <div class="dw-bottom-border">
+    <span></span>
+    </div> -->
+    <div id="forensics" name="forensics" class="dw-row-padding dw-top-bottom dw-container">
+        <div class="dw-content dw-wrap-reverse">
+            <div class="dw-container-para">
+                <h1>Forensics</h1>
+
+                <p class="dw-text-grey">Forensics is the application of investigation and analysis techniques to gather and preserve evidence from a particular computing device in a way that is suitable for presentation in a court of law. The goal of our cyber forensics program
+                    is to perform a structured investigation while maintaining a documented chain of evidence to find out exactly what happened on all device and who was responsible for it.</p>
+
+                <p class="dw-text-grey">So, Our Forensic Team investigates and follow a typically standard set of procedures: After physically isolating the device in question to make sure it cannot be accidentally contaminated, investigators make a digital copy of the device's
+                    storage media. Once the original media has been copied, it is locked in a safe or other secure facility to maintain its pristine condition. All investigation is done on the digital copy.</p>
+                <p class="dw-text-grey">Our Investigators use a variety of techniques and proprietary software forensic applications to examine the copy, searching hidden folders and unallocated disk space for copies of deleted, encrypted, or damaged files. Any evidence found
+                    on the digital copy is carefully documented in a "finding report" and verified with the original in preparation for legal proceedings that involve discovery, depositions, or actual litigation.</p>
+            </div>
+
+            <div class="dw-img-container dw-center">
+                <img class="dw-img" src="./images/forensics.png" alt="def">
+            </div>
+        </div>
+
+    </div>
+    <!-- <div class="dw-bottom-border">
+    <span></span>
+    </div> -->
+    <div id="vapt" name="vapt" class="dw-row-padding dw-top-bottom dw-lite dw-container">
+        <div class="dw-content dw-wrap">
+            <div class="dw-img-container dw-center">
+                <img class="dw-img" src="./images/vapt.png" alt="def">
+            </div>
+
+            <div class="dw-container-para">
+                <h1>Vulnerability Assessment and Penetration Testing(VAPT)</h1>
+
+                <p class="dw-text-grey">VAPT is an important task to be carried out as a service by our organization. This is because of the rise in hacking attempts irrespective of the industry type. Attacks can happen from internally or externally with no or little knowledge
+                    of the network.</p>
+
+                <p class="dw-text-grey">Penetration testing is a systematic way to detect security vulnerabilities in an application by evaluating the system or network with various malicious techniques. It is obviously an ethical way of penetrating into a network or website
+                    of our client, in order to bring problems to the surface with an intention to fix those. Such a service, also called as VAPT, uses same techniques as that of a real life evil hacker.</p>
+                <p class="dw-text-grey">The idea is to test all network layers, right from L2 to L7. The test can be intrusive or non-intrusive, depending upon the scope and depth, as well as data criticality. Companies are encouraged to look for pentest service provided by
+                    us,to do the vulnerability scanning in an agile and accurate way and provide a detailed technical report, which helps strengthen the cyber security.</p>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer-info">
+        <!-- Footer Section Start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                    <a href="/">
+                        <svg version="1.1" class="dw-inter-logo noselect" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 260.1" style="enable-background:new 0 0 2295.1 260.1;" xml:space="preserve">
+												   
+													<path class="dw-logo-path logo" d="M61.99,255.6H9.87c-2.97,0-5.37-2.4-5.37-5.37V9.87C4.5,6.9,6.9,4.5,9.87,4.5h52.12c2.97,0,5.37,2.4,5.37,5.37
+															v240.36C67.36,253.2,64.96,255.6,61.99,255.6z"></path>
+													<path class="dw-logo-path logo" d="M182.03,211.86c-3.87,2.2-7.65,4.08-11.19,5.68c-12.11,5.48-25.28,8.2-38.57,8.2H67.36v-35.19h73.62
+															c2.97,0,5.92-0.5,8.71-1.52 M182.03,211.86 M182.03,167.44c7.96-9.23,14.03-21.77,14.03-38.56c0-28.47-17.46-44.73-31.96-53.32
+															c-9.37-5.55-20.12-8.34-31.01-8.34H67.36V35.79h78.66c0,0,3.74,0.16,5.59,0.49c15.29,2.68,80.1,21.79,80.1,92.61
+															c0,25.91-8.68,45.02-20.43,59.09 M205.06,128.88 M210.93,70.08c1.44-0.6,2.73-1.09,3.85-1.49c2.52-0.9,5.17-1.37,7.85-1.37h74.07
+															V35.79h-78.66c-1.88,0-3.74,0.16-5.59,0.49c-5.5,0.96-17.42,4.06-30.43,10.92 M182.03,167.44c-7.96-9.23-14.03-21.77-14.03-38.56
+															c0-16.79,6.07-29.33,14.03-38.56 M210.94,187.69c-7.76-3.23-19.62-9.48-28.9-20.25 M152.91,70.04
+															c-11.81,13.81-20.55,32.84-20.55,58.84c0,51.17,33.83,75.81,58.37,87.49c13.04,6.21,27.32,9.36,41.76,9.36l64.21,0v-35.19h-73.62
+															c-2.98,0-5.94-0.5-8.74-1.52c-1.01-0.37-2.16-0.81-3.41-1.33"></path>
+													<path class="dw-logo-path logo" d="M353.98,255.02h-52.12c-2.97,0-5.37-2.4-5.37-5.37V10.45c0-2.97,2.4-5.37,5.37-5.37h52.12
+															c2.97,0,5.37,2.4,5.37,5.37v239.2C359.35,252.62,356.95,255.02,353.98,255.02z"></path>
+												</svg>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 footer-nav wow fadeInUp">
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 wow fadeInRight">
+                    <p>All Rights Reserved &copy; - 2015</p>
+                </div>
+            </div>
+            <!-- Row End -->
+        </div>
+        <!-- Container End -->
+    </footer>
 </body>
 
 </html>
